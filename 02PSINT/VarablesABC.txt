@@ -1,0 +1,33 @@
+Algoritmo VariablesABC
+	Definir A,B,C Como Entero 
+	Escribir  "Escribir el primer numero"
+	Leer A
+	Escribir  "Escribir el segundo numero"
+	leer B
+	Escribir "Escribir el tercer numero"
+	Leer C
+	si A>B y A>C Entonces
+		Escribir  "El nuemro mayor es",A
+	SiNo
+		si B>A y B>C Entonces
+			Escribir "el nuemro mayor es",B
+		SiNo
+			si C>A y C>B Entonces
+				Escribir "el nuemro mayor es",C
+			FinSi
+		FinSi
+	FinSi
+	si A<B  y A<C Entonces
+		Escribir "el menor es",A
+	SiNo
+		si B<A y B<C Entonces
+			Escribir "el nuemro menor es",B
+		SiNo
+			si C<A y C<B Entonces
+				Escribir "el menor es",C
+			SiNo
+				Escribir "numeros iguales"
+			FinSi
+		FinSi
+	FinSi
+FinAlgoritmo

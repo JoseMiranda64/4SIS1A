@@ -1,0 +1,13 @@
+Algoritmo AreaVolumen
+	Definir R,H Como Real
+	Escribir "escribe el radio"
+	Leer R
+	Escribir "escribe altura"
+	Leer H
+	Area<-2*pi*R*(R+h)
+	Volumen<-pi*(R^2)*H
+	Escribir  "el volumen es",volumen
+	Escribir   "el area es",area
+	
+	
+FinAlgoritmo

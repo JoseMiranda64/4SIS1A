@@ -1,0 +1,15 @@
+Algoritmo HipotenusaTrianguloRectangulo
+	Repetir
+		Definir A,B,C Como Real
+		Escribir "Escribe el cateto A"
+		Leer A
+		Escribir "Escribe el cateto B"
+		Leer B
+		c<-RC((A*A)+(B*B))
+		Escribir "La hipotennusa del triangulo rectangulo es ",C
+		
+		Escribir "Desea realizar de nuevo la operacion,1:si 2:no"
+		Leer op
+	Hasta Que op<>1
+	
+FinAlgoritmo
