@@ -87,7 +87,7 @@ public class Ventana extends JFrame implements ActionListener {
 
     private void colocarEtiquetas() {
 
-        JLabel userLabel = new JLabel("ELIJA LA OPCION DESEADA ");
+        JLabel userLabel = new JLabel("ELIJA UNA OPCION ");
         userLabel.setBounds(100, 0, 160, 50);
         mainPanel.add(userLabel);
 
